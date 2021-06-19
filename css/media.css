@@ -1,0 +1,113 @@
+@media screen {/*993-1024*/
+    .hero-title {
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .hero-title span{
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .hero-img img{
+        width: 550px;
+    }
+    .list:not(:last-child) {
+        margin-right: 15px;
+    }
+}
+
+@media screen { /*769-992*/
+    .header-icon svg:not(:last-child) {
+        margin-right: 5px;
+        height: 14px;
+    }
+    .list {
+        color: #030D15;
+        text-transform: uppercase;
+        Font-size: 12px;
+        Line-height: 18px;
+    }
+    .hero-title {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .icon{
+        width: 20px;
+        height: 20px;
+        text-align: center;
+    }
+    .icon svg {
+        margin: 5px;
+        height: 12px;
+    }
+    .hero-title span {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .hero-img img {
+        max-width: 400px;
+    }
+    .hero-btn {
+        padding: 15px;
+    }
+    .hero-desc {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .usa {
+        margin: 15px;
+    }
+    .list svg {
+        margin-left: 2px;
+    }
+    .brands-content {
+        padding: 30px 60px;
+    }
+    .product-col {
+        display: block;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .products-price {
+        font-size: 14px;
+    }
+    .product-img{
+        position: relative;
+    }
+    .brands-content img{
+        max-width: 130px;
+    }
+    .product-img svg{
+        position: absolute;
+        top: -15px;
+        right: 50px;
+    }
+}
+
+
+@media screen { /*480-768*/
+    .product-row {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 20px;
+    }
+    .products-box{
+        max-width: 250px;
+    }
+    .product-img{
+        position: relative;
+    }
+    .product-img svg{
+        position: absolute;
+        top: -25px;
+        right: 140px;
+
+    }
+}
+
+@media screen {  /*479-320*/
+
+}

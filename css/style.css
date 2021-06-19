@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+
+}
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+}
+body{
+    Font-family: Hind Siliguri sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 33px 0;
+}
+.menu-list{
+    display: flex;
+
+}
+.list:not(:last-child){
+    margin-right: 40px;
+}
+.list svg{
+    margin-left: 8px;
+}
+.list{
+    color: #030D15;
+    text-transform: uppercase;
+    Font-size: 14px;
+    Line-height: 23px;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+    background: #F4F9FC;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: center;
+    margin: 27px 0;
+}
+.icon svg{
+    margin: 10px;
+}
+.header-icon svg:not(:last-child){
+    margin-right: 31px;
+}
+.header-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*hero*/
+.hero-info{
+    color: #C72535;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.hero-title{
+    font-weight: 600;
+    font-size: 61px;
+    line-height: 73px;
+}
+.hero-title span{
+    font-size: 61px;
+    line-height: 73px;
+    color: #247CC0;
+    background: #247CC035;
+    margin: 3px 0 29px;}
+.hero-desc{
+    font-size: 20px;
+    line-height: 27px;
+    color: #030D15;
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+}
+.hero-btn{
+    background: #247CC0;
+    color: #FFFFFF;
+    padding: 16px 34px;
+}
+.hero-btn span{
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #030D15;
+}
+.hero-buttons{
+    margin: 36px 0 73px;
+}
+.usa{
+    margin: 0 18px 0 31px;
+}
+.dollar{
+    color: rgba(3, 13, 21, 0.42);
+}
+/*hero*/
+/*brands*/
+.brands-content{
+    padding: 76px 118px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 100px 80px rgba(174, 174, 174, 0.08), 0px 43.751px 36.4414px rgba(174, 174, 174, 0.0575083), 0px 19.8401px 19.1406px rgba(174, 174, 174, 0.0476886), 0px 6.77214px 9.61331px rgba(174, 174, 174, 0.04), 0px 0.190079px 4.14347px rgba(174, 174, 174, 0.0323114), 0px -1.73968px 1.20532px rgba(174, 174, 174, 0.0224916);
+}
+/*brands*/
+/*products*/
+.products{
+    padding-top: 110px;
+}
+.product-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 37px;
+}
+.product-col{
+    display: flex;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    color: #030D15;
+    align-items: center;
+}
+.product-img{
+    position: relative;
+    margin-right: 30px;
+}
+.product-img svg{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+
+}
+.products-desc{
+    font-size: 14px;
+    line-height: 21px;
+    color: #030D15;
+    opacity: 0.6;
+    margin: 9px 0 20px;
+}
+.products-price{
+    font-size: 16px;
+    line-height: 27px;
+    color: #030D15;
+    margin-right: 2px;
+}
+.products-price span{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 27px;
+    color: #030D15;
+    opacity: 0.5;
+}
+.products-price span span{
+    text-decoration-line: line-through;
+}
+/*products*/
